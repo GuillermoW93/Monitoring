@@ -11,21 +11,15 @@ This repository provides a quick start to set up a Prometheus stack containing P
 
 1. Run the following command for a one-click install experience in Portainer:
 
-''bash
-Dashboard -> Stacks > Add Stack -> docker-compose.yaml contents
-''
+`$ Dashboard -> Stacks > Add Stack -> docker-compose.yaml contents`
 
 2. Add the prometheus.yaml file to the Raspberry Pi (host) for Prometheus
 
-''bash
-Login to your Raspberry Pi -> cd /data/compose/2/config/ & copy prometheus.yaml 
-''
+`$ Login to your Raspberry Pi -> cd /data/compose/2/config/ & copy prometheus.yaml`
 
 3. Restart Prometheus Container in Portainer
 
-''bash
-Dashboard -> Stacks > Container > Restart
-''
+`$ Dashboard -> Stacks > Container > Restart` 
 
 4. Login to Grafana and configure Prometheus as data source 
 
