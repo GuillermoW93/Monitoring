@@ -27,8 +27,8 @@ Dashboard -> Stacks > Container > Restart
 4. Login to Grafana and configure Prometheus as data source 
 
 Services Created
-Prometheus: Data Aggregator (Port: 9090)
-Alert Manager: Adds Alerting for Prometheus Checks (Port: 9093)
-Grafana: UI to Show Prometheus Data (Port: 3000, Username: admin, Password: 9uT46ZKE)
-Node Exporter: Data Collector for Computer Stats (Port: 9100)
-CA Advisor: Collects resource usage of Docker containers (Port: 8080)
+- Prometheus: Data Aggregator (Port: 9090)
+- Alert Manager: Adds Alerting for Prometheus Checks (Port: 9093)
+- Grafana: UI to Show Prometheus Data (Port: 3000, Username: admin, Password: admin)
+- Node Exporter: Data Collector for Computer Stats (Port: 9100)
+- CA Advisor: Collects resource usage of Docker containers (Port: 8080)
